@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-09T11:23:19 EET" name="Surefire suite" finished-at="2021-12-09T11:26:04 EET" duration-ms="165075">
+    <groups>
+    </groups>
+    <test started-at="2021-12-09T11:23:19 EET" name="Surefire test" finished-at="2021-12-09T11:26:04 EET" duration-ms="165075">
+      <class name="demoshop.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoshop.HomePageTest@2e6ba49a]" started-at="2021-12-09T11:23:19 EET" name="setup" finished-at="2021-12-09T11:25:01 EET" duration-ms="102455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="can_login_with_valid_credentials(src.core.models.demoshop.dataprovider.UserForTest)[pri:0, instance:demoshop.HomePageTest@2e6ba49a]" started-at="2021-12-09T11:25:01 EET" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-12-09T11:25:28 EET" duration-ms="26314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_user_dino]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_login_with_valid_credentials(src.core.models.demoshop.dataprovider.UserForTest)[pri:0, instance:demoshop.HomePageTest@2e6ba49a]" started-at="2021-12-09T11:25:28 EET" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-12-09T11:25:33 EET" duration-ms="4336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_user_turtle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_login_with_valid_credentials(src.core.models.demoshop.dataprovider.UserForTest)[pri:0, instance:demoshop.HomePageTest@2e6ba49a]" started-at="2021-12-09T11:25:33 EET" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-12-09T11:25:36 EET" duration-ms="3173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_user_beetle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_open_login_modal()[pri:0, instance:demoshop.HomePageTest@2e6ba49a]" started-at="2021-12-09T11:25:36 EET" name="can_open_login_modal" description="I can open a Demo app Homepage." finished-at="2021-12-09T11:25:37 EET" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_open_login_modal -->
+        <test-method signature="expect_a_welcome_message()[pri:0, instance:demoshop.HomePageTest@2e6ba49a]" started-at="2021-12-09T11:25:37 EET" name="expect_a_welcome_message" description="I am expecting a welcome message here." finished-at="2021-12-09T11:25:39 EET" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expect_a_welcome_message -->
+        <test-method signature="wrong_credentials_throws_error_message()[pri:0, instance:demoshop.HomePageTest@2e6ba49a]" started-at="2021-12-09T11:25:39 EET" name="wrong_credentials_throws_error_message" description="I receive an error message when logging in with wrong credentials" finished-at="2021-12-09T11:25:41 EET" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrong_credentials_throws_error_message -->
+      </class> <!-- demoshop.HomePageTest -->
+      <class name="demoshop.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoshop.LoginTest@5f212d84]" started-at="2021-12-09T11:25:41 EET" name="setup" finished-at="2021-12-09T11:25:41 EET" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="can_login_with_valid_credentials(src.core.models.demoshop.dataprovider.UserForTest)[pri:0, instance:demoshop.LoginTest@5f212d84]" started-at="2021-12-09T11:25:41 EET" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-12-09T11:25:50 EET" duration-ms="8814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_user_dino]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_login_with_valid_credentials(src.core.models.demoshop.dataprovider.UserForTest)[pri:0, instance:demoshop.LoginTest@5f212d84]" started-at="2021-12-09T11:25:50 EET" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-12-09T11:25:57 EET" duration-ms="6800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_user_turtle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_login_with_valid_credentials(src.core.models.demoshop.dataprovider.UserForTest)[pri:0, instance:demoshop.LoginTest@5f212d84]" started-at="2021-12-09T11:25:57 EET" name="can_login_with_valid_credentials" description="I can login with valid credentials {0}" data-provider="correct_credentials" finished-at="2021-12-09T11:26:01 EET" duration-ms="3876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Correct_Login_with_user_beetle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_login_with_valid_credentials -->
+        <test-method signature="can_open_login_modal()[pri:0, instance:demoshop.LoginTest@5f212d84]" started-at="2021-12-09T11:26:01 EET" name="can_open_login_modal" description="I can open a Demo app Homepage." finished-at="2021-12-09T11:26:04 EET" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_open_login_modal -->
+      </class> <!-- demoshop.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
